@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-#disqus_thread {
+.comment {
     max-width: 1024px;
     
     width: 96%;
@@ -774,6 +774,10 @@ align-items: center;
 /* max-width: 275px */
 @media only screen and (max-width: 275px) {
     .invite-container {
+        display: none;
+    }
+
+    .our-gallery {
         display: none;
     }
 }
