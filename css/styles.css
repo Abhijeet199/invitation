@@ -67,7 +67,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     z-index: 1; 
 }
 
@@ -217,7 +217,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 2; 
 }
 
@@ -333,7 +333,7 @@ align-items: center;
 
     .landing-page {
         background-attachment: scroll;
-        height: 85vh
+        height: 87vh
     }
 }
 
@@ -480,7 +480,7 @@ align-items: center;
 
 
     .heading h1 {
-        font-size: 2.2rem;
+        font-size: 2.4rem;
     }
     
     .headline {
@@ -488,7 +488,7 @@ align-items: center;
     }
 
     .couple-info {
-        margin: 8rem auto 4rem;
+        margin: 7rem auto 4rem;
     }
     .groom-image, .bride-image {
         width: 260px;
@@ -552,7 +552,7 @@ align-items: center;
     }
     
     .heading h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     
     .headline {
@@ -598,10 +598,10 @@ align-items: center;
 @media only screen and (max-width: 414px) {
     .landing-page h1 {
         /* font-size: 3.5rem; */
-        font-size: 3rem;
+        font-size: 3.1rem;
     }
     .heading h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
     
     .headline {
@@ -609,7 +609,7 @@ align-items: center;
     }
 
     .couple-info {
-        margin: 7rem auto 4rem;
+        margin: 6rem auto 4rem;
     }
 
     .couple-info h1 {
@@ -632,7 +632,7 @@ align-items: center;
 /* max-width: 411px */
 @media only screen and (max-width: 411px) {
     .couple-info {
-        margin: 6rem auto 4rem;
+        margin: 5rem auto 4rem;
     }
 }
 
@@ -640,11 +640,11 @@ align-items: center;
 /* max-width: 365px */
 @media only screen and (max-width: 365px) {
     .landing-page h1 {
-        font-size: 2.8rem;
+        font-size: 2.9rem;
     }
 
     .heading h1 {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
     
     .headline {
@@ -672,11 +672,11 @@ align-items: center;
 /* max-width: 340px */
 @media only screen and (max-width: 340px) {
     .landing-page h1 {
-        font-size: 2.4rem;
+        font-size: 2.5rem;
     }
 
     .heading h1 {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         margin-bottom: 8px;
     }
 
@@ -711,11 +711,11 @@ align-items: center;
 /* max-width: 320px */
 @media only screen and (max-width: 320px) {
     .landing-page h1 {
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
 
     .heading h1 {
-        font-size: 1.15rem;
+        font-size: 1.3rem;
     }
 
     .headline {
