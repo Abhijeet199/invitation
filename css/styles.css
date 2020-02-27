@@ -7,7 +7,15 @@
     box-sizing: border-box;
 }
 
+#disqus_thread {
+    max-width: 1024px;
+    
+    width: 100%;
+    margin: auto;
+    margin-top: 4rem;
 
+    margin-bottom: 4rem;
+}
 
 
 .pink {
