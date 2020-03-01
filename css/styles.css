@@ -485,6 +485,10 @@ align-items: center;
         flex-direction: column;
     }
 
+    .invite p {
+        line-height: 2.8rem;
+    }
+
     .bride {
         margin-bottom: 4rem;
     }
@@ -540,6 +544,7 @@ align-items: center;
 
     .invite p {
         font-size: 2.2rem;
+        line-height: 2.6rem;
     }
 
     .address img {
@@ -650,7 +655,7 @@ align-items: center;
     }
 
     .invite p {
-        font-size: 1.7rem;
+        font-size: 1.8rem;
     }
 
     .address h1 {
@@ -694,7 +699,7 @@ align-items: center;
     }
 
     .invite p {
-        font-size: 1.45rem;
+        font-size: 1.6rem;
     }
 
     .address h1 {
