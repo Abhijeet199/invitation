@@ -347,18 +347,6 @@ align-items: center;
         font-size: 2.8rem;
         margin-top: 1.4rem;
     }
-
-    
-
-    /* .couple::before {
-        content: '';
-        position: absolute; 
-        top: -19.2vh;
-        height: 10px;
-        width: 100%;
-        z-index: 30;
-        opacity: .4;
-    } */
 }
 
 
@@ -738,12 +726,12 @@ align-items: center;
     .address h1 {
         font-size: 1rem;
     }
-    .address p {
+    /* .address p {
         font-size: .9rem;
     }
     .address p:last-child {
         font-size: .95rem;
-    }
+    } */
 }
 
 /* max-width: 320px */
@@ -770,13 +758,12 @@ align-items: center;
         font-size: 1.1rem;
     }
     .couple-info p {
-        font-size: .8rem;
+        font-size: .9rem;
     }
 
     .address p {
-        font-size: .8rem;
-        line-height: 2rem;
-        width: 200px
+        font-size: .9rem;
+        width: 210px;
     }
 }
 
