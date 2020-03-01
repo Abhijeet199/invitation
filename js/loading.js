@@ -12,7 +12,7 @@ before = gettimeinsec();
 
 window.addEventListener('load', () => {
     after = gettimeinsec();
-    if (after - before > 4) {
+    if (after - before > 3) {
         document.querySelector('.loading').className += 'hidden';
         document.querySelector('.ganesh').style.display = 'none';
         document.querySelector('body').classList.remove('stop-scrolling');
@@ -22,7 +22,7 @@ window.addEventListener('load', () => {
             document.querySelector('.loading').className += 'hidden';
             document.querySelector('.ganesh').style.display = 'none';
             document.querySelector('body').classList.remove('stop-scrolling');
-        }, 4000);
+        }, 3000);
     }
 
 })
