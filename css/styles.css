@@ -793,3 +793,11 @@ align-items: center;
     }
 }
 
+footer {
+    text-align: center;
+}
+footer p{
+    font-size: .9rem;
+    margin-bottom:2px;
+}
+
