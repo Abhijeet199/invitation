@@ -792,7 +792,13 @@ align-items: center;
         display: none;
     }
 }
-
+.border {
+    max-width: 900px;
+    width: 85%;
+    border-top: 1px solid #B8B9BE;
+    margin: auto;
+    margin-bottom: 5px;
+}
 footer {
     text-align: center;
 }
