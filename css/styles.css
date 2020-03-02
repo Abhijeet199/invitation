@@ -7,16 +7,16 @@
     box-sizing: border-box;
 }
 
-#disqus_thread {
+.fb-comments {
     position: relative;
 
 }
-#disqus_thread::after {
+.fb-comments::after {
     content: '';
     display: block;
     position: absolute;
     width: 100%;
-    height: 55px;
+    height: 35px;
     bottom: 0;
     background: #fff;
     border-top: 3px solid #ffff;
@@ -24,7 +24,7 @@
 .comment {
     max-width: 1024px;
     
-    width: 96%;
+    width: 98%;
     margin: auto;
     margin-top: 5rem;
 

@@ -105,7 +105,9 @@
             </div>
 
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1071.7396888790424!2d83.00083797690442!3d25.37506150329709!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc51d16d1bb167571!2sOm%20Marriage%20Lawn!5e0!3m2!1sen!2sin!4v1583084425544!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1071.7396888790424!2d83.00083797690442!3d25.37506150329709!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc51d16d1bb167571!2sOm%20Marriage%20Lawn!5e0!3m2!1sen!2sin!4v1583084425544!5m2!1sen!2sin"
+                    width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             </div>
 
         </div>
@@ -123,15 +125,15 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"><img src="/img/slider/1.jpg" alt=""></div>
                     <div class="swiper-slide"><img src="/img/slider/2.jpg" alt=""></div>
-                    <div class="swiper-slide"><img src="/img/slider/3.jpg" alt=""></div>
+                    <!-- <div class="swiper-slide"><img src="/img/slider/3.jpg" alt=""></div>
                     <div class="swiper-slide"><img src="/img/slider/4.jpg" alt=""></div>
-                    <div class="swiper-slide"><img src="/img/slider/5.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="/img/slider/5.jpg" alt=""></div> -->
                     <div class="swiper-slide"><img src="/img/slider/6.jpg" alt=""></div>
                     <div class="swiper-slide"><img src="/img/slider/7.jpg" alt=""></div>
                     <div class="swiper-slide"><img src="/img/slider/8.jpg" alt=""></div>
                     <div class="swiper-slide"><img src="/img/slider/9.jpg" alt=""></div>
                     <div class="swiper-slide"><img src="/img/slider/10.jpg" alt=""></div>
-                    <div class="swiper-slide"><img src="/img/slider/11.jpg" alt=""></div>
+                    <!-- <div class="swiper-slide"><img src="/img/slider/11.jpg" alt=""></div> -->
                     <div class="swiper-slide"><img src="/img/slider/12.jpg" alt=""></div>
                     <div class="swiper-slide"><img src="/img/slider/13.jpg" alt=""></div>
                     <div class="swiper-slide"><img src="/img/slider/14.jpg" alt=""></div>
@@ -146,27 +148,16 @@
         </div>
         <!-- our gallery end -->
 
-        <div id="disqus_thread" class='comment'></div>
-        <script>
+        
+        <div class='comment'>
+            <div class="fb-comments"  data-href="https://aparajita-ramanand.netlify.com/" data-width="100%" data-numposts="15"></div>
+        </div>
+        
 
-            /**
-            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-
-            var disqus_config = function () {
-                this.page.url = "https://aparajita-ramanand.netlify.com/";  // Replace PAGE_URL with your page's canonical URL variable
-                this.page.identifier = "/"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-            };
-
-            (function () { // DON'T EDIT BELOW THIS LINE
-                var d = document, s = d.createElement('script');
-                s.src = 'https://aparajita-ramanand.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
-                Disqus.</a></noscript>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous"
+            src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=282765466024272&autoLogAppEvents=1"></script>
+        
 
 
         <!-- loading js -->
@@ -176,7 +167,6 @@
 
         <script src="/js/app.js"></script>
 
-        <script id="dsq-count-scr" src="//aparajita-ramanand.disqus.com/count.js" async></script>
     </body>
 
 </html>
