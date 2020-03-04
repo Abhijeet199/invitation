@@ -274,16 +274,18 @@
 }
 .address h1 {
     margin-bottom: .4rem;
+    font-size: 1.8rem;
 }
 
 .address p {
     max-width: 250px;
     margin: auto;
+    font-size: 1.2rem;
 }
 .address p:last-child {
     margin-bottom: 3rem;
     margin-top: .4rem;
-    font-size: 1.2rem;
+    
 }
 
 .map {
@@ -406,12 +408,12 @@ align-items: center;
     }
     
     .address p {
-        font-size: .9rem;
+        font-size: 1.1rem;
     }
     .address p:last-child {
         margin-bottom: 3rem;
         margin-top: .38rem;
-        font-size: 1.1rem;
+        
     }
 }
 
@@ -546,7 +548,7 @@ align-items: center;
     .address h1 {
         font-size: 1.6rem;
     }
-    .address p:last-child {
+    .address p {
         font-size: 1rem;
     }
     
