@@ -269,7 +269,6 @@
 }
 .address img {
     width: 100px;
-    margin-bottom: -10px;
     margin-top: -25px;
 }
 .address h1 {
@@ -733,12 +732,6 @@ align-items: center;
     .address h1 {
         font-size: 1rem;
     }
-    /* .address p {
-        font-size: .9rem;
-    }
-    .address p:last-child {
-        font-size: .95rem;
-    } */
 }
 
 /* max-width: 320px */
