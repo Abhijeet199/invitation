@@ -272,6 +272,7 @@
 .address img {
     width: 100px;
     margin-top: -25px;
+    margin-bottom: .3em;
     user-select: none;
 }
 .address h1 {
