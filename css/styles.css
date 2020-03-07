@@ -212,7 +212,7 @@
     font-family: 'Roboto', sans-serif;
     margin-top: .4rem;
     font-size: 1.3rem;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
 }
 
 .invite-container {
@@ -284,7 +284,7 @@
     max-width: 250px;
     margin: auto;
     font-size: 1.2rem;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
     line-height: 1.5;
 }
 .address p:last-child {
