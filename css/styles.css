@@ -195,6 +195,7 @@
     overflow: hidden;
     border-radius: 50%;
     margin-bottom: 1rem;
+    user-select: none;
 }
 
 .groom-image img, .bride-image img {
@@ -271,6 +272,7 @@
 .address img {
     width: 100px;
     margin-top: -25px;
+    user-select: none;
 }
 .address h1 {
     margin-bottom: .4rem;
