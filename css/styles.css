@@ -324,7 +324,9 @@
     width: 250px;
     margin: auto;
     margin-top: .9rem;
+    margin-bottom: 0;
     display: flex;
+    overflow: hidden;
 }
 
 .help img {
