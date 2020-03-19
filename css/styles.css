@@ -874,6 +874,7 @@ footer {
 
 footer a {
     text-decoration: none;
+    color: #333;
 }
 
 footer a:hover {
